@@ -1,0 +1,79 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4; /* Light Gray Background */
+    margin: 0;
+    padding: 0;
+    color: #333; /* Dark Gray Text */
+}
+
+.container {
+    max-width: 400px;
+    margin: 50px auto;
+    background-color: #fff; /* White Container */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+header {
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 24px;
+    color: #3498db; /* Light Blue Heading */
+    margin: 0;
+}
+
+p {
+    font-size: 14px;
+    color: #777; /* Light Gray Subtext */
+    margin: 5px 0 0;
+}
+
+form {
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    font-size: 14px;
+    color: #555; /* Dark Gray Text */
+}
+
+input, select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    background-color: #ecf0f1; /* Light Grayish Blue Background */
+    border: none;
+    color: #555; /* Dark Gray Text */
+}
+
+button.estimate-btn {
+    background-color: #2ecc71; /* Emerald Green Button */
+    color: #fff; /* White Text */
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+button.estimate-btn:hover {
+    background-color: #27ae60; /* Darker Green on Hover */
+}
+
+#estimatedPrice.result {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #333; /* Dark Gray Text */
+    background-color: #ecf0f1; /* Light Grayish Blue Result Background */
+    padding: 10px;
+    border-radius: 5px;
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Price Estimation</title>
+    <link rel="stylesheet" href="app.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Home Price Estimation</h1>
+            <p> Created by Abhishek Auti guided by Prof. Dhavel Sir</p>
+        </header>
+        
+        <form>
+            <label for="area">Area (Square Feet):</label>
+            <input type="number" id="area" placeholder="Enter area..." value="1000">
+
+            <label for="bedrooms">Bedrooms:</label>
+            <select id="bedrooms">
+                <option value="1">1</option>
+                <option value="2" selected>2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+            </select>
+
+            <label for="bathrooms">Bathrooms:</label>
+            <select id="bathrooms">
+                <option value="1">1</option>
+                <option value="2" selected>2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+            </select>
+
+            <label for="location">Location:</label>
+            <select id="location">
+                <option value="" disabled selected>Select a location</option>
+                <option value="Electronic City">Electronic City</option>
+                <option value="Rajaji Nagar">Rajaji Nagar</option>
+            </select>
+
+            <button class="estimate-btn" onclick="estimatePrice()">Get Estimate</button>
+        </form>
+
+        <div id="estimatedPrice" class="result"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
